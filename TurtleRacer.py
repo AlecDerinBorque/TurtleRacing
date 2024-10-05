@@ -7,8 +7,8 @@ COLORS = ["red", "green", "aqua", "orange", "yellow", "black", "purple", "pink",
 
 print("Today we are going to play a racing game\n")
 
-cuck = input("If you want to play type (y): \n").lower()
-if cuck != "y":
+play = input("If you want to play type (y): \n").lower()
+if play != "y":
     print("\nGoodbye")
     exit()
 
